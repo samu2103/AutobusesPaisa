@@ -1,0 +1,87 @@
+/*.DivPadre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    border: 1px black solid;
+}
+.DatosIniciales{
+
+    display: flex;
+    width: 50vw;
+    align-items: center;
+    border: solid black;
+ 
+}
+.DatosSecundarios{
+    display: flex;
+    flex-flow: column wrap;
+    width: 50vw;
+    align-items: center;
+    border: solid black;
+    justify-content: space-around;
+}*/
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+.form-register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: rgb(219, 219, 221);
+    border-radius: 7px;
+}
+.form__titulo{
+    background: rgb(17, 154, 172);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-bottom: 5px solid rgb(25, 124, 14);
+}
+.contenedor-inputs{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+.input-48{
+    width: 48%;
+}
+.input-100{
+    width: 100%;
+}
+.btnAltaBus{
+    margin: auto;
+    background: rgb(22, 21, 18);
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+    
+}
+.input-30{
+    background: rgb(252, 234, 166);
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid rgb(169, 169, 169);
+   
+}

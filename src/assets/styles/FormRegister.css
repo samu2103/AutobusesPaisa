@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: beige;
+    background: rgb(183, 229, 195);
+
+}
+h1{
+    color: #e2dede;
+    text-align: center;
+}
+.form-register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background:rgb(55, 227, 101);
+    border-radius: 7px;
+}
+.form__titulo{
+    background: rgb(126, 227, 153);
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-bottom: 5px rgb(12, 243, 73);
+}
+.contenedor-inputs{
+    padding: 70px 50px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid darkgray;
+}
+.input-48{
+    width: 100%;
+}
+.input-100{
+    width: 100%;
+}
+.btnAltaBus{
+    margin: 22%;
+    background: rgb(106, 242, 120);
+    padding: 20px 80px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid darkgray;
+    color: #fff;
+    
+}
+.input-30{
+    background: rgb(135, 235, 145);
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+    justify-content: center;
+    border: 1px solid rgb(169, 169, 169);
+   
+}
+.registrarseLogin{
+    display: flex;
+    color: #706e68;
+    padding: 80px;
+    font-size: 13px;
+    justify-content: flex-end;
